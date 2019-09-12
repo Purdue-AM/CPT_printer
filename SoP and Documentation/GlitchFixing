@@ -1,0 +1,8 @@
+When the plasma starts up, it will cause significant EMI incident on the printer control board and most intensely on the control screen and buttons. There's a few ways to mitigate this to a point the printer can function;
+
+0. Have a well-built and grounded frame; only metal-film coated polycarbonate should be used for the enclosure, and the enclosure should be well-grounded to a bus bar with 10 AWG copper wire with a green coating. 
+
+1. Add ferrite clamps on the wires that go into the printer enclosure. 
+
+2. Solder a 50V, 1uF capacitor over both the control knob push button and the reset button on the control pannel. Use a voltmeter to figure out which pads of the buttons to solder to (DO NOT PROBE WHEN THE PLASMA IS ON). The idea is to increase the rise time of the gates the buttons affect, so they're less jumpy. 
+
